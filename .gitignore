@@ -1,0 +1,75 @@
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build output
+# =========================
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# =========================
+# .NET
+# =========================
+artifacts/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# =========================
+# NuGet
+# =========================
+packages/
+*.nupkg
+*.snupkg
+
+# =========================
+# EF Core Power Tools
+# =========================
+efpt.config.json.user
+
+# Giữ efpt.config.json nếu muốn người khác có thể scaffold giống project
+# Nếu không muốn push file cấu hình này thì bỏ comment dòng dưới:
+# efpt.config.json
+
+# =========================
+# SQL Server local database
+# =========================
+*.mdf
+*.ldf
+*.ndf
+
+# =========================
+# Local settings / secrets
+# =========================
+appsettings.Development.json
+secrets.json
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
